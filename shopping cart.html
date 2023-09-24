@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+
+
+</head>
+<body>
+    <header>
+        <body onload="funload()">
+            <nav class="navbar navbar-expand-sm bg-dark">
+			<a class="navbar-brand"> 
+				<img src="c:\Users\zumra\Desktop\practice 1\logo.jpg" width="60" height="30px">
+                <body background="c:\Users\zumra\Desktop\practice 1\fggg.jpg"></body>
+			</a>
+
+			<button style="background-color: white;" class="navbar-toggler"
+				type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span> 
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item"><span><a class="nav-link"
+							href="index.html">Home</a></span></li>
+					<li class="nav-item "><span><a class="nav-link active"
+							href="login.html">Login</a></span></li>
+					<li class="nav-item "><span><a class="nav-link"
+							href="Register.html">Register</a></span></li>
+                            <li class="nav-item"><span><a class="nav-link"
+                                href="Categories.html">Categories</a></span></li>
+                                <li class="nav-item"><span><a class="nav-link"
+                                    href="Shopping Cart.html">Shopping Cart</a></span></li>
+                                    <li class="nav-item"><span><a class="nav-link"
+                                        href="Checkout.html">Checkout</a></span></li>
+				</ul>
+			</div>
+		</nav>
+        <body onload="funload()">
+            <body style="background-color: powderblue;"></body>
+    </header>
+    <div class="container mt-4">
+        <h2> Shopping Cart</h2>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Book  1</td>
+                    <td>380.00</td>
+                    <td>
+                        <input type="number" min="1" value="1" class="form-control">
+                    </td>
+                    <td>380.00</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Book  2</td>
+                    <td>540.00</td>
+                    <td>
+                        <input type="number" min="1" value="1" class="form-control">
+                    </td>
+                    <td>540.00</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Remove</button>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+        <div class="text-right">
+            <h4>Total: 920.00</h4>
+            <button class="btn btn-primary">Proceed to Checkout</button>
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
